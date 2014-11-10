@@ -1,0 +1,175 @@
+<harshit93> Hello kayra !
+<harshit93> You could start with the session :)
+<kayra>  :) I guess we have somebody very new sahil sareen cse-14 batch , it has been nice to have you here ssareen
+<ssareen> kayra: Thanks
+<harshit93> welcome ssareen 
+<kayra> So, coming back to the agenda, till now we have had three sessions, leaving the last one which was slightly half-hearted :)
+<ssareen> harshit93: Thanks
+<kayra> 1. we had the git session, I would like to know how much people have worked on it
+<ssareen> Hello eveyone, Im Sahil, I help with gnome-games
+<ssareen> Sorry to interrupt, kayra
+<kayra> :) yeah yeah sure please share your experience, :)
+<ssareen> Nothing to share though. Go on with the agenda you have.
+<Dipak> hello
+<drish> Hello
+<Dipak> start the topic
+<kayra> hello :) and tell us what have you done till now on git
+<kayra> Dipak, neve mind we are already started. :)
+<kayra> *never
+<kayra> any sort of response will be great
+<bisu> Last thing i did was to create a pull request and see it getting merged :)
+<bisu> in github i mean
+<kayra> great bisu (y)
+<kayra> okay even if you have googled git, that accounts for some typing and some work, you can always share :)
+<bisu> though i have never faced any conflicts and have no idea about how to get around them
+<kayra> give yourself time, handle some bigger projects, you will eventually get them
+<kayra> Few things we have learnt in git are few of its commands , init, push, pull, the different areas staging head, working directories
+<kayra> I think everyone is thorough with these basics
+<harshit93> I believe we can move forward from Git
+<kayra> yep :)
+<harshit93> The students would learn more as they need it
+<bisu> yep
+<kayra> yep added a reminder :)
+<harshit93> Other nicks of the channel are also welcome to speak up! :)
+<harshit93> Now about building the code, anyone tried anything new?
+<kayra> 2. The second class was on code building
+<kayra> any new source code ?
+<kayra> singharpit2 : did you try building a code?
+<harshit93> sweetsammy: drish architarushi bisu what about you guys?
+<drish> i am afraid i havent really started with anything
+<sweetsammy> nothing new
+<harshit93> abhinav_jain: anything new? built something?
+<kayra> please dont be afraid, these things take time , but you should eventually start
+<architarushi> I haven't worked on anything new
+<abhinav_jain> Nope, with sessionals on, didn't get much time. :/
+<harshit93> Another important thing, I hope all of you are attending this session from Linux installed systems?
+<kayra> otherwise life would be tough
+<singharpit1> sorry there was a internet problem
+<bisu> Yes regarding linux distro. Can anyone suggest me a distro which has most upstream gnome like  gnome 3.14
+<singharpit1> i tried okular and KMail
+<singharpit1> but could not do much work
+<bisu> Sorry if that's off topic
+<kayra> that is great, np, you can always start off in the holidays
+<harshit93> singharpit1: Could you tell us the problems you faced in building okular and Kmail?
+<singharpit1> could not find the readme in okular
+<ssareen> Doesn't kde have a build tool that resolves all the dependencies of itself?
+<kayra> if there is no README file, you can see files like INSTALL
+<singharpit1> it was a image which described how to build it
+<singharpit1> but could understand it
+<kayra> yeah there is a buld tool, i think there are number of , but this way, you actually get a feel how you compile souce code from scratch resolving all dependencies
+<singharpit1> could not understand it
+<singharpit1> sorry
+<harshit93> The amount of sorry's that you speak over here reduces your efficiency to work
+<kayra> sorry for what? :) its great  you have tried
+<harshit93> exactly! :D
+<singharpit1> i will surely work after the semester exams
+<kayra> (y)
+<kayra> ssareen i think there is build tool called emerge for kde based applications in windows, I always had issues installing them, so naive :D
+<kayra> singharpit1 : show us the problem you were facing, or anytime you can send us the screenshot or file itself
+<singharpit1> sure
+<singharpit1> in okular there is readme image which is very complicated
+<singharpit1> i will try to understand it first by myself
+<harshit93> Then you would google the magical words "How to build Okular"
+<harshit93> then you would ask here
+<singharpit1> sure harshit93
+<kayra> okay , next time, I will ask you to share whatever you did and ofcourse its not that complicated, you can do it by yourself
+<singharpit1> okay karya
+<kayra> :)
+<harshit93> people who joined just now please introduce yourselves
+<ssareen> If you still can't build okular, Join Gnome! :D
+<ssareen> Choose an app of your choice
+<ssareen> Install jhbuild
+<ssareen> Just do "jhbuild buildone app_of_your_choice"
+<ssareen> and viola!
+<kayra> ssareen : this is so bad of you  :D
+<harshit93> Okay, it would be better if all the participants of the session today choose a software, project (in KDE, Gnome or anyplace else)
+<harshit93> And tell us by Wednesday. At the same time
+<singharpit1> is Kmail good for practising junior jobs
+<kayra> yeah, harshit93: lets give them an application specifically like marble or calligra such that we can discuss the errors which will be helpful in general
+<ssareen> I think it would be a good idea to do a session in person and help everyone to atleast be able to build whatever they want to work on.
+<kayra> yeah we had one session previously, we will surely have few more in future :)
+<bisu> Please suggest some applications separately in gnome and kde which are suitable for beginners
+<bisu> I just cant find anything suitable to start
+<harshit93> We will have sessions in January. Hosting physical sessions is a bit tough due to holidays and permissions
+<harshit93> debjit: You would like to answer bisu ?
+<harshit93> looks like debjit is akf
+<harshit93> *afk
+<debjit> bisu: have a look at the applications under kde edu which are targeted for pre-school and school kids. These applications are relatively small and simple to understand.
+<bisu> Thanks :) though i am more familiar with gnome. So anything with gtk?
+<kayra> fewcha__ : can you suggest some easy kde applications?
+<kayra> fewcha__
+<fewcha__> go for Marble
+<fewcha__> join the #marble channel, and ping Earthwings to give you some easy task to begin with
+<kayra> that's great :)
+<fewcha__> Marble is in KDE btw, it uses the KDE framework and Qt libraries, not Gnome, sorry
+<harshit93> bisu: Also, every project hosts a bug list (bugs.kde.org for marble), there you can look for Junior Jobs
+<bisu> Harshit93 i see. Thanks a lot :)
+<debjit> bisu : As for gnome, simple application would mean something like tomboy. But I think you should work on whatever application you like to use. And though the source code might seem complicated, you don't have to understand all of it. Just few modules maybe.
+<fewcha__> bisu: go through https://www.kde.org/applications/
+<kayra> okay, nice to see so many applications on the plate, people go for anyone and build it :)
+<harshit93> One of the good part of the code of these applications is that everything is modular
+<fewcha__> bisu: choose either one of the 20 applications shown here: https://www.kde.org/applications/ *each* of them are simple
+<harshit93> You look for a bug, and you don't need to understand every line of the entire software. Just the module that houses that bug
+<fewcha__> sorry I mean https://www.kde.org/applications/education/
+<fewcha__> bisu: choose either one of the 20 applications shown here: https://www.kde.org/applications/education/ *each* of them are simple
+<bisu> Got it :)
+<fewcha__> rahulch is working at KHangMan at the moment, maybe he can guide you in that
+<fewcha__> *working on
+<bisu> So the kde teem seems heavy here :)
+<fewcha__> yes
+<kayra> that does not mean you cannot build a gnome source code, you can always go for it :)
+<fewcha__> it would have been strange if it wasn't, since the KDE people are the most logical and helpful guys I have personally ever interacted with
+<fewcha__> yes, you can choose from over 190 orgs as well actually
+<bisu> *_* ??
+<kayra> that would be a generalisation i guess, I have met fantastic gnome people too :)
+<fewcha__> even Twitter is one of those organisations
+<kayra> anikets95_
+<kayra> did you try building anything?
+<fewcha__> harshit93: why not create a spreadsheet or something which can be filled up by who is working on what, or something like that?
+<fewcha__> although it is completely upto them to change their minds later or at any time they want to
+<harshit93> fewcha__: Sure! It would be up in the group after the session
+<fewcha__> that would be great!
+<harshit93> Indeed! :)
+<anikets95_> sry , exams tomorrow
+<anikets95_> nope , i have not tried @kayra
+<kayra> okay, please take up and build something in the holidays :)
+<fewcha__> anikets95_: all the best for your exam!
+<bugzee> do we have irc channels that can help us out, seperately for each of the applications ?
+<fewcha__> bugzee: yes
+<fewcha__> for example, #marble for Marble
+<fewcha__> but may not be for all, though
+<bugzee> okay :)
+<fewcha__> another example being, #kde-kstars for KStars
+<anikets95_> @kayra surely
+<anikets95_> @fewcha thanks
+<kayra> :)
+<fewcha__> bugzee: yw
+<kayra> harsit93 : the spreadsheet is getting up shortly i guess and we are almost done
+<fewcha__> who is harsit93 ?
+<harshit93> I'll upload the spreadsheet in the group after the session what say kayra ?
+<kayra> harshit93 *typo*
+<fewcha__> bugzee: have you chosen any specific application to work in by now, btw?
+<kayra> yeah, you upload it, or maybe a form where people submit name and details
+<bugzee> fewcha__ : nope, i'm afraid i haven't :/
+<bugzee> i will be going through the link you just provided above !
+<fewcha__> bugzee: cool, not a problem, you can do it this December
+<bugzee> fewcha__: yeah sure, will try my best :)
+<fewcha__> :)
+<bugzee> btw, do we need to be an expert at git for making a contribution ?
+<fewcha__> bugzee: no, but an expert in object-oriented concepts (when it comes to KDE)
+<kayra> to make a contribution, you need to be a good code reader, all else you can search over the internet
+<fewcha__> bugzee: just know the very basics of Qt
+<bugzee> alright ! :)
+<fewcha__> btw the IRC channels are always there for your help, and trust me, you really get some genuine help from there when you are stuck too deep in muddy waters
+<bugzee> fewcha__ : u mean Qt is like a basic neccessity ?
+<fewcha__> bugzee: yes, obviously, how else will you create patches, and stuff?
+<bugzee> okay , actually i didn't have much idea about that !
+<fewcha__> you've got time, don't worry
+<bugzee> yup, thnx fewcha__ :)
+<fewcha__> yw
+<kayra> I think we are done for today :) any more questions?
+<fewcha__> this channel is open 24x7 though
+<kayra> harshit93 : I guess we can call it a day :)
+<harshit93> kayra: I guess we can
+<harshit93> Thank you everyone for participating!
+<harshit93> And please keep conversing on this channel. Might help you a lot

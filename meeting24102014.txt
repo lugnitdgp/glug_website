@@ -1,0 +1,173 @@
+<harshit93> We would be starting in a couple of minutes, hoping more people join in
+<somesh> good evening...i have been waiting for this,,
+<sudhani> So what is the topic for today's session
+<sweetsammy> hello
+<harshit93> So have we. I reckon you to refrain from using so many dots (....)
+<harshit93> Hello sweetsammy 
+<sudhani> Hello sweetsammy
+<somesh> ok, actually i am not very used to this
+<harshit93> sudhani, we would be explaining that, and many more things in a couple of minutes.
+<sudhani> Okay harshit93
+<harshit93> Okay, so since couple of halls in the college are having internet connectivity problems, I guess we should start
+<harshit93> I'll upload the logs of the meeting on the group later, and they can go through it
+<harshit93> So, the first thing I would request everyone here to go through are the IRC etiquettes
+<harshit93> https://github.com/fizerkhan/irc-etiquette
+<harshit93> ^ This is a good source as any
+<harshit93> And a couple of points, please refrain from using sms lang nd end questions like??????
+<harshit93> Everyone here can understand a single ?
+<harshit93> Among the people present, who all had gone through the question paper that rupanjana had posted?
+<sudhani> Arpit Singh
+<harshit93> anyone else?
+<sweetsammy> i did. Sammita Chakravarti
+<sudhani> Actually i did not go in much detail
+<sweetsammy> I googled for a couple of answers. The questions are still not clear to me
+<harshit93> reason, sudhani?
+<sudhani> Most of the answers i googled and submitted
+<harshit93> Googled, that's good. Did you go through the answers and the blogs that came up?
+<sweetsammy> yes
+<sudhani> Yes
+<harshit93> welcome fewcha_mob :)
+<harshit93> Good.
+* fewcha_mob is in a train right now :P
+<harshit93> Now any question you have problems with?
+<harshit93> fewcha_mob, we could benefit from your contribution still :D
+<sweetsammy> but I didnt get that question. .ssh one
+<sudhani> Not much knowledge of shell commands
+<sudhani> That was one of the reasons
+<sudhani> Yes can anyone explain that question in detail
+<harshit93> fewcha_mob, you wanna take that?
+<fewcha_mob> sudhani: what was the question?
+<sudhani> The question which had ssh add -L command
+<harshit93> the question was to explain ssh-add -L | awk '{ print $2 }' | xargs -i grep '{}' ~/.ssh/authorized_keys | head -1 command
+<sudhani> Yes this question
+<fewcha_mob> sudhani: did you go through https://help.github.com/articles/generating-ssh-keys/ ?
+<sudhani> Actually i went through many blogs but could not understand this script
+<harshit93> sudhani, do you know the concept that in the given commend, | separates different commands?
+<harshit93> *command
+<sudhani> Yes | is used for joining multiple commands
+<sudhani> I have answered that question
+<harshit93> exactly. So every previous command output is used an input to the next command
+<sudhani> Can i know is it correct
+<harshit93> I do not have the responses with me right now, I'll get to you on that
+<sudhani> Okay
+<harshit93> so now, i guess if you focus on individual elements of the command, this would be easy
+<harshit93> any more problems with the paper?
+<sudhani> I think it searches for '{}' in the second field of the mentioned file and prints the matched string
+<harshit93> exactly
+<sudhani> Okay i answered the same in the paper
+<harshit93> Good.
+<sudhani> Rest of the questions were pretty straight forward
+<harshit93> Glad that you found them such.
+<harshit93> Did you solve the paper abhinav_jain?
+<harshit93> I guess he has dozed off
+<abhinav_jain> Yes, I tried answering the questions related to git and building softwares.
+<harshit93> Good.
+<harshit93> Now, after the last session that we had, who all here, tried to build a different source code from what was shown there?
+<abhinav_jain> Me
+<harshit93> which source code did you build?
+<abhinav_jain> I was trying to install airtel dongle software in linux. The setup came with the drive itself.
+<abhinav_jain> I read the install file, but got nowhere with it.
+<harshit93> So the Airtel people had provided the source with it?
+<abhinav_jain> Yup, there was a folder that said linux, inside which there were files like install, etc
+<harshit93> Okay. What problems did you face while installing the software?
+<abhinav_jain> It asked for root access when I tried running the command ./install as stated in the readme file.
+<harshit93> Okay, what did you do then?
+<abhinav_jain> I did >sudo su, bt even then, it showed the same thing.
+<harshit93> if there are individual commands, that require root access, you can directly run them as sudo <command>
+<abhinav_jain> Tried that too. Doesn't work.
+<harshit93> for instance, in this case, sudo ./install
+<harshit93> and what was the error showed then?
+<abhinav_jain> for sudo ./install, error was Command not found
+<abhinav_jain> And after sudo su, Error was bash: ./install: Permission denied
+<harshit93> Okay. Did you google the problem that you faced?
+<abhinav_jain> Not till now. But I'll soon. And if I face any problem, I'll ask this in the next class.
+<harshit93> Firstly, I guess it's not granting the root access to the remote drive that you are plugging in (the dongle in this case)
+<harshit93> So I suggest you copy the linux folder to your home directory, and retry
+<harshit93> secondly, for the sudo ./install : Command not found, 
+<harshit93> the install file might not be an executable
+<harshit93> so try a chmod +x <filename> before retrying the command
+<harshit93> And above all, google! :)
+<abhinav_jain> OK, I'll try these steps. Thanks a lot. :)
+<harshit93> Welcome. :)
+<harshit93> Anyone else tried their hand at anything new/ on their own after the last session?
+<harshit93> Okay, so there are a few things that the people new to open source need to keep in mind
+<harshit93> this community thrives on openness, and I would request everyone to be responsive about the things that they have done/not done, and to ask, and research together the problems that they are facing
+<harshit93> You will face problems. In building anything, changing a single line of code. But that doesn't mean that you remain scared and you don't ask. The experienced people using that software might have faced the same problems!
+<harshit93> and no one would rebuke you for asking questions. So don't worry about that
+<harshit93> welcome mrupanjana :)\
+<mrupanjana> my apologies, away from keyboard
+<mrupanjana> :( sorry
+<harshit93> it's okay. I'll upload the logs
+<mrupanjana> thanks :)
+<harshit93> Continuing, Also, if you did not try, then also attend the meetings and the sessions. They would be very informative.
+<mrupanjana> yes! we will try and make it as much easy and basic as possible
+<harshit93> And this isn't a test, neither an assesment, so feel free to google as much as you can. People have faced the same problems that you are facing right now. And they have written about how to solve it. All you have to do is to type in to google.com and read.
+<harshit93> Also, a very important point. Contrary to the environment around us, this is a field that is not competitive. It would help you to help others.
+<harshit93> So sharing, and resolving others problems would do you much good.
+<mrupanjana> yep! we will discuss the answers in the next class, the more you google, the more you learn
+<harshit93> Exactly.
+<harshit93> Now since the responsive people asked what they had to, and others have no problems at all :P
+<mrupanjana> somesh : did you take the assessment?
+<harshit93> mrupanjana, somesh seems to be snoozing :P
+<mrupanjana> harshit : have people built at least one source code? :)
+<mrupanjana> i think they are not so well aware of the ways of irc as I was few months back :P
+<fewcha_mob> Who is somesh?
+<harshit93> mrupanjana, abhinav_jain built the source for running his airtel dongle on linux
+<mrupanjana> brilliant, what exactly is the software ?
+<harshit93> he has run into a few uer permission difficulties, which he would implement based on the suggestions, and would report in the next session
+<mrupanjana> user oh root case
+<harshit93> I'm also unaware. Waiting eagerly to see! :D
+<mrupanjana> :D
+<harshit93> yes.
+<mrupanjana> yes problems are gold mines :D
+<fewcha_mob> Cool!
+<mrupanjana> fewcha_mob somesh had pinged me earlier, so i kind of expected him to fill the answers
+<mrupanjana> :)
+<fewcha_mob> mrupanjana: I see
+<harshit93> So we end the meeting today.
+<harshit93> fewcha_mob, when would you be reaching?
+<mrupanjana> okay, harshit93 i was thinking of teaching them of building source code from tar balls, little complicated
+<fewcha_mob> When are we taking the next session?
+<harshit93> We can have that. There are many things that need to be taught. Therefore we would have dev meetups.
+<harshit93> The next session would be on Monday, which would be a google hangout taken by Shrink 
+<mrupanjana> oh cool!
+<mrupanjana> what has happened to our juniors? hello can you guys read me?
+<harshit93> And on Tuesday, the session where we would teach them how to modify a source code (Bug fix
+<harshit93> *) and submit a patch.
+<mrupanjana> yes very important
+<harshit93> Completing that process, we would have dev meetups then, on how to start with Gnome, KDE, Building from Tarballs, and more as we come up with it
+<harshit93> And ofcourse solving the problems that students run into, in each session
+<mrupanjana> yeah
+<mrupanjana> so on monday we have the hangout and tuesday the bug fix session
+<harshit93> Yes.
+<mrupanjana> Eager to listen to shrink :D
+<harshit93> Me too! :D
+<mrupanjana> :D
+<somesh> i am sorry. i dint take the test
+<harshit93> Then i reckon take it before the next session somesh.
+<harshit93> It'll be helpful for you
+<somesh> i had an exam earlier. then diwali
+<mrupanjana> yep :)
+<somesh> yaah. i will definitely take it
+<mrupanjana> great :)
+<somesh> at first i was hesitating a little since i missed the last session
+<mrupanjana> Did you ask Aniket ?
+<somesh> he told me to ask u people again. sort of recursion i believe
+<mrupanjana> No issues, I will send you the links here itself
+<mrupanjana> haha okay
+<somesh> thanks!
+<mrupanjana> https://techbase.kde.org/Getting_Started/Build
+<mrupanjana> https://techbase.kde.org/Getting_Started/Build/Windows/emerge
+<mrupanjana> https://techbase.kde.org/Getting_Started
+<mrupanjana> begin from the last link :)
+<harshit93> mrupanjana, Why are we building KDE apps on Windows?
+<mrupanjana> no :) you can see they have used git clone, its like if he keeps reading , he will get an overall idea
+<mrupanjana> :)
+<somesh> thanks a ton!
+<harshit93> Ah
+<harshit93> okay got it
+<mrupanjana> harshit93, since there are so less people online right now, otherwise we could have actually repeated the initial steps :)
+<mrupanjana> next class any of us can do it :)
+<harshit93> sure :)
+<mrupanjana> :) cheers of to open source and i guess we are done for the day
+<harshit93> I guess we are
